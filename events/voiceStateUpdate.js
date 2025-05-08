@@ -16,13 +16,18 @@ const archiveChannel = async (channel, guild) => {
   });
 };
 
-const restoreChannel = async (channel, guild) => {
+const restoreChannel = async (channel, guild, userId) => {
   await channel.setParent(activeCategoryId, {
     lockPermissions: false,
   });
 
   await channel.permissionOverwrites.edit(guild.roles.everyone, {
     [PermissionsBitField.Flags.ViewChannel]: true,
+  });
+
+  //removing the move members perms from everyone as that was causing issues
+  await channel.permissionOverwrites.edit(userId, {
+    [PermissionsBitField.Flags.MoveMembers]: false,
   });
 };
 
@@ -43,10 +48,7 @@ const createChannel = async (user, client, guild) => {
       },
       {
         id: user.id,
-        allow: [
-          PermissionsBitField.Flags.Connect,
-          PermissionsBitField.Flags.MoveMembers,
-        ],
+        allow: [PermissionsBitField.Flags.Connect],
       },
       {
         id: guild.roles.everyone,
@@ -114,7 +116,7 @@ module.exports = {
         );
 
         if (existingChannel) {
-          restoreChannel(existingChannel, guild);
+          restoreChannel(existingChannel, guild, user.id);
 
           await newState.member.voice.setChannel(existingChannel);
 

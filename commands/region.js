@@ -31,6 +31,9 @@ module.exports = {
 
   async execute(interaction) {
     // const userVC = interaction.member.voice.channel;
+
+    await interaction.deferReply({ flags: MessageFlags.Ephemeral });
+
     const userId = interaction.member.user.id;
     const userCustomVC = await CreatedChannels.findOne({ userId });
 
@@ -41,12 +44,12 @@ module.exports = {
 
     try {
       await userVC.setRTCRegion(region);
-      interaction.reply({
+      interaction.editReply({
         content: `Set VC region to ${region}`,
       });
     } catch (error) {
       console.error("Error changing VC region: ", error);
-      interaction.reply({
+      interaction.editReply({
         content: "Failed to change VC region.",
         flags: MessageFlags.Ephemeral,
       });

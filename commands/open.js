@@ -8,11 +8,13 @@ const CreatedChannels = require("../models/createdChannels");
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("open")
+    .setName("unlock")
     .setDescription("Opens the VC to the public"),
 
   async execute(interaction) {
     // const userVC = interaction.member.voice.channel;
+
+    await interaction.deferReply({ flags: MessageFlags.Ephemeral });
 
     const userId = interaction.member.user.id;
     const userCustomVC = await CreatedChannels.findOne({ userId });
@@ -26,13 +28,13 @@ module.exports = {
         [PermissionsBitField.Flags.Connect]: true,
       });
 
-      interaction.reply({
+      interaction.editReply({
         content: "Opened the VC to everyone.",
         flags: MessageFlags.Ephemeral,
       });
     } catch (error) {
       console.error("Error opening VC: ", error);
-      interaction.reply({
+      interaction.editReply({
         content: "Failed to open VC.",
         flags: MessageFlags.Ephemeral,
       });

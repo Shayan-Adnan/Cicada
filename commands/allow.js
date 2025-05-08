@@ -21,6 +21,9 @@ module.exports = {
   async execute(interaction) {
     //const userVC = interaction.member.voice.channel;
     //const userTextChannel = interaction.channel;
+
+    await interaction.deferReply({ flags: MessageFlags.Ephemeral });
+
     const userId = interaction.member.user.id;
     const targetUser = interaction.options.getUser("user");
 
@@ -39,7 +42,7 @@ module.exports = {
       );
 
       if (currentPermissions?.allow.has(PermissionsBitField.Flags.Connect)) {
-        return interaction.reply({
+        return interaction.editReply({
           content: `${targetUser.username} already has permission to join your VC.`,
           flags: MessageFlags.Ephemeral,
         });
@@ -49,7 +52,7 @@ module.exports = {
         [PermissionsBitField.Flags.Connect]: true,
       });
 
-      interaction.reply({
+      interaction.editReply({
         content: `${targetUser.username} can now join your VC.`,
         flags: MessageFlags.Ephemeral,
       });
@@ -59,7 +62,7 @@ module.exports = {
       );
     } catch (error) {
       console.error("Error allowing user: ", error);
-      interaction.reply({
+      interaction.editReply({
         content: "Failed to allow user!",
         flags: MessageFlags.Ephemeral,
       });

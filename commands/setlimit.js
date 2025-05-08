@@ -16,6 +16,9 @@ module.exports = {
 
   async execute(interaction) {
     // const userVC = interaction.member.voice.channel;
+
+    await interaction.deferReply({ flags: MessageFlags.Ephemeral });
+
     const userId = interaction.member.user.id;
     const limit = interaction.options.getInteger("limit");
 
@@ -25,7 +28,7 @@ module.exports = {
     );
 
     if (limit < 0 || limit > 99) {
-      return interaction.reply({
+      return interaction.editReply({
         content: "Please enter a number between 0 and 99",
         flags: MessageFlags.Ephemeral,
       });
@@ -33,13 +36,13 @@ module.exports = {
 
     try {
       await userVC.setUserLimit(limit);
-      interaction.reply({
+      interaction.editReply({
         content: `VC limit set to ${limit}`,
         flags: MessageFlags.Ephemeral,
       });
     } catch (error) {
       console.error("Error setting VC limit: ", error);
-      interaction.reply({
+      interaction.editReply({
         content: "Failed to update VC limit",
         flags: MessageFlags.Ephemeral,
       });

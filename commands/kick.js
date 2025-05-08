@@ -4,6 +4,8 @@ const {
   MessageFlags,
 } = require("discord.js");
 
+const { clientId } = require("../config/config");
+
 const CreatedChannels = require("../models/createdChannels");
 
 module.exports = {
@@ -18,6 +20,8 @@ module.exports = {
     ),
 
   async execute(interaction) {
+    await interaction.deferReply({ flags: MessageFlags.Ephemeral });
+
     //const userVC = interaction.member.voice.channel;
     const userId = interaction.member.user.id;
     const targetUser = interaction.options.getUser("user");
@@ -28,8 +32,15 @@ module.exports = {
     );
 
     if (targetUser.id === interaction.member.user.id) {
-      return interaction.reply({
+      return interaction.editReply({
         content: "You cannot kick yourself from your own VC!",
+        flags: MessageFlags.Ephemeral,
+      });
+    }
+
+    if (targetUser.id === clientId) {
+      return interaction.editReply({
+        content: "You cannot kick the bot from your VC!",
         flags: MessageFlags.Ephemeral,
       });
     }
@@ -44,13 +55,13 @@ module.exports = {
       await userVC.permissionOverwrites.edit(targetUser.id, {
         [PermissionsBitField.Flags.Connect]: false,
       });
-      interaction.reply({
+      interaction.editReply({
         content: `${targetUser.username} has been kicked from your VC. They can no longer join.`,
         flags: MessageFlags.Ephemeral,
       });
     } catch (error) {
       console.error("Error kicking user: ", error);
-      interaction.reply("Failed to kick user!", MessageFlags.Ephemeral);
+      interaction.editReply("Failed to kick user!", MessageFlags.Ephemeral);
     }
   },
 };

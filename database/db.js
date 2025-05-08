@@ -3,12 +3,14 @@ const { dbConnectionString } = require("../config/config");
 
 const connectDatabase = async () => {
   try {
-    await mongoose.connect(dbConnectionString);
+    await mongoose.connect(dbConnectionString, {
+      serverSelectionTimeoutMS: 120000,
+    });
 
     console.log("Database connected!");
   } catch (error) {
     console.error("Database connection error: ", error);
-    process.exit(1);
+    setTimeout(connectDatabase, 5000);
   }
 };
 

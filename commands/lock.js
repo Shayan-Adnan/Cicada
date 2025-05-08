@@ -14,6 +14,8 @@ module.exports = {
   async execute(interaction) {
     // const userVC = interaction.member.voice.channel;
 
+    await interaction.deferReply({ flags: MessageFlags.Ephemeral });
+
     const userId = interaction.member.user.id;
     const userCustomVC = await CreatedChannels.findOne({ userId });
 
@@ -26,13 +28,13 @@ module.exports = {
         [PermissionsBitField.Flags.Connect]: false,
       });
 
-      interaction.reply({
+      interaction.editReply({
         content: "Locked the VC.",
         flags: MessageFlags.Ephemeral,
       });
     } catch (error) {
       console.error("Error locking VC: ", error);
-      interaction.reply({
+      interaction.editReply({
         content: "Failed to lock VC.",
         flags: MessageFlags.Ephemeral,
       });

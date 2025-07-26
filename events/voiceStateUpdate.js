@@ -1,7 +1,13 @@
-const { PermissionsBitField } = require("discord.js");
+const {
+  PermissionsBitField,
+  DiscordAPIError,
+  ChannelType,
+} = require("discord.js");
 const {
   joinToCreateChannelId,
   activeCategoryId,
+  __archivedCategoryId,
+  ___archivedCategoryId,
   archivedCategoryId,
 } = require("../config/config");
 const CreatedChannels = require("../models/createdChannels");
@@ -10,10 +16,42 @@ const archiveChannel = async (channel, guild) => {
   await channel.permissionOverwrites.edit(guild.roles.everyone, {
     [PermissionsBitField.Flags.ViewChannel]: false,
   });
+  console.log("Attempting to archive channel", channel.name);
 
-  await channel.setParent(archivedCategoryId, {
-    lockPermissions: false,
-  });
+  const categories = [
+    { id: archivedCategoryId, name: "Main Archived Category" },
+    { id: __archivedCategoryId, name: "Second Archived Category" },
+    { id: ___archivedCategoryId, name: "Third Archived Category" },
+  ];
+
+  for (const { id, name } of categories) {
+    const category = guild.channels.cache.get(id);
+    if (!category) {
+      console.log(`${name} doesn't exist!`);
+      continue;
+    }
+
+    const voiceChannelCount = category.children.cache.filter(
+      (ch) => ch.type === ChannelType.GuildVoice
+    ).size;
+
+    if (voiceChannelCount < 3) {
+      try {
+        await channel.setParent(id, { lockPermissions: false });
+        console.log(`Successfully archived to ${name}`);
+        return;
+      } catch (error) {
+        if (error instanceof DiscordAPIError && error.code === 50035) {
+          console.log(`${name} is full, trying next category`);
+          continue;
+        }
+        throw error;
+      }
+    } else {
+      console.log(`${name} is full (${voiceChannelCount}/50 channels)`);
+    }
+  }
+  throw new Error("All archive categories are full or unavailable");
 };
 
 const restoreChannel = async (channel, guild, userId) => {
@@ -25,7 +63,6 @@ const restoreChannel = async (channel, guild, userId) => {
     [PermissionsBitField.Flags.ViewChannel]: true,
   });
 
-  //removing the move members perms from everyone as that was causing issues
   await channel.permissionOverwrites.edit(userId, {
     [PermissionsBitField.Flags.MoveMembers]: false,
   });
@@ -75,13 +112,42 @@ module.exports = {
       if (isACustomVC && oldChannel?.members.size === 0) {
         try {
           await archiveChannel(oldChannel, guild);
-          await joinToCreateChannel.permissionOverwrites.delete(
-            isACustomVC.userId
+          console.log(
+            `Removing voice channel permissions for ${isACustomVC.userId} for join to create channel`
+          );
+          await joinToCreateChannel.permissionOverwrites.edit(
+            isACustomVC.userId,
+            {
+              [PermissionsBitField.Flags.Connect]: true,
+            }
+          );
+          console.log(
+            `Removed voice channel permissions sucessfully for join to create channel for user ${isACustomVC.userId}`
           );
         } catch (error) {
           console.error("Error archiving channel: ", error);
         }
       }
+
+      /*  const isInTheirOwnVC = await CreatedChannels.findOne({
+        channelId: newState.channelId,
+        userId: user.id,
+      });
+
+      if (!isInTheirOwnVC) {
+        try {
+          console.log(
+            `Removing voice channel permissions for ${user.username} for join-to-create channel`
+          );
+
+          await joinToCreateChannel.permissionOverwrites.delete(user.id);
+        } catch (error) {
+          console.error(
+            `Error unlocking join to create for ${user.username}`,
+            error
+          );
+        }
+      } */
     }
 
     if (!newState.channelId) return;
@@ -163,15 +229,16 @@ module.exports = {
             const existingChannel = guild.channels.cache.get(
               existingChannelEntry.channelId
             );
-            await existingChannel?.setParent(archivedCategoryId, {
-              lockPermissions: false,
-            });
-            await existingChannel?.permissionOverwrites.edit(
-              guild.roles.everyone,
-              {
-                [PermissionsBitField.Flags.ViewChannel]: false,
-              }
-            );
+            await archiveChannel(existingChannel, guild);
+            // await existingChannel?.setParent(archivedCategoryId, {
+            //   lockPermissions: false,
+            // });
+            // await existingChannel?.permissionOverwrites.edit(
+            //   guild.roles.everyone,
+            //   {
+            //     [PermissionsBitField.Flags.ViewChannel]: false,
+            //   }
+            // );
           }
         } catch (error) {
           console.log("Failed to archive channel.", error);
@@ -185,23 +252,3 @@ module.exports = {
 // await joinToCreateChannel.permissionOverwrites.edit(user.id, {
 //   [PermissionsBitField.Flags.Connect]: true,
 // });
-
-// const isInTheirOwnVC = await CreatedChannels.findOne({
-//   channelId: newState.channelId,
-//   userId: user.id,
-// });
-
-// if (!isInTheirOwnVC) {
-//   try {
-//     console.log(
-//       `Removing voice channel permissions for ${user.username} for join-to-create channel`
-//     );
-
-//     await joinToCreateChannel.permissionOverwrites.delete(user.id);
-//   } catch (error) {
-//     console.error(
-//       `Error unlocking join to create for ${user.username}`,
-//       error
-//     );
-//   }
-// }

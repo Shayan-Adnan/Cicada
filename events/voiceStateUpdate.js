@@ -11,12 +11,14 @@ const {
   archivedCategoryId,
 } = require("../config/config");
 const CreatedChannels = require("../models/createdChannels");
+const logger = require("../config/logger");
 
 const archiveChannel = async (channel, guild) => {
   await channel.permissionOverwrites.edit(guild.roles.everyone, {
     [PermissionsBitField.Flags.ViewChannel]: false,
   });
   console.log("Attempting to archive channel", channel.name);
+  logger.info(`Attempting to archive channel ${channel.name}`);
 
   const categories = [
     { id: archivedCategoryId, name: "Main Archived Category" },
@@ -28,6 +30,7 @@ const archiveChannel = async (channel, guild) => {
     const category = guild.channels.cache.get(id);
     if (!category) {
       console.log(`${name} doesn't exist!`);
+      logger.error(`${name} doesn't exist!`);
       continue;
     }
 
@@ -35,26 +38,29 @@ const archiveChannel = async (channel, guild) => {
       (ch) => ch.type === ChannelType.GuildVoice
     ).size;
 
-    if (voiceChannelCount < 3) {
+    if (voiceChannelCount < 50) {
       try {
         await channel.setParent(id, { lockPermissions: false });
         console.log(`Successfully archived to ${name}`);
+        logger.info(`Successfully archived to ${name}`);
         return;
       } catch (error) {
         if (error instanceof DiscordAPIError && error.code === 50035) {
           console.log(`${name} is full, trying next category`);
+          logger.info(`${name} is full, trying next category`);
           continue;
         }
         throw error;
       }
     } else {
       console.log(`${name} is full (${voiceChannelCount}/50 channels)`);
+      logger.info(`${name} is full (${voiceChannelCount}/50 channels)`);
     }
   }
   throw new Error("All archive categories are full or unavailable");
 };
 
-const restoreChannel = async (channel, guild, userId) => {
+const restoreChannel = async (channel, guild, user, existingChannelEntry) => {
   await channel.setParent(activeCategoryId, {
     lockPermissions: false,
   });
@@ -63,13 +69,42 @@ const restoreChannel = async (channel, guild, userId) => {
     [PermissionsBitField.Flags.ViewChannel]: true,
   });
 
-  await channel.permissionOverwrites.edit(userId, {
+  await channel.permissionOverwrites.edit(user.id, {
     [PermissionsBitField.Flags.MoveMembers]: false,
   });
+
+  await existingChannelEntry.updateOne({
+    lastMovedAt: Date.now(),
+  });
+
+  // Update username if it doesn't exist or is null/empty
+  if (
+    !existingChannelEntry.username ||
+    existingChannelEntry.username === null
+  ) {
+    console.log(
+      `Username doesn't exist in database record for ${user.username}. Adding username.`
+    );
+    logger.info(
+      `Username doesn't exist in database record for ${user.username}. Adding username.`
+    );
+    try {
+      await existingChannelEntry.updateOne({
+        username: user.username,
+      });
+    } catch (error) {
+      console.error(
+        `Failed to add username to ${user.username}'s record in the database`
+      );
+      logger.error(
+        `Failed to add username to ${user.username}'s record in the database`
+      );
+    }
+  }
 };
 
 const createChannel = async (user, client, guild) => {
-  return await guild.channels.create({
+  const newChannel = await guild.channels.create({
     name: `${user.username}'s channel`,
     type: 2,
     parent: activeCategoryId,
@@ -94,6 +129,24 @@ const createChannel = async (user, client, guild) => {
       },
     ],
   });
+
+  // Use findOneAndUpdate with upsert to handle orphaned records
+  // If a record exists (orphaned from failed DB deletion), it will be updated
+  // Otherwise, a new record will be created
+  await CreatedChannels.findOneAndUpdate(
+    { userId: user.id },
+    {
+      userId: user.id,
+      channelId: newChannel.id,
+      username: user.username,
+    },
+    { upsert: true, new: true }
+  );
+
+  console.log(`Added new channel to database (for ${user.username})`);
+  logger.info(`Added new channel to database (for ${user.username})`);
+
+  return newChannel;
 };
 
 module.exports = {
@@ -104,28 +157,40 @@ module.exports = {
     const joinToCreateChannel = guild.channels.cache.get(joinToCreateChannelId);
 
     if (oldState.channelId) {
-      const isACustomVC = await CreatedChannels.findOne({
+      const customVC = await CreatedChannels.findOne({
         channelId: oldState.channelId,
       });
       const oldChannel = oldState.guild.channels.cache.get(oldState.channelId);
 
-      if (isACustomVC && oldChannel?.members.size === 0) {
+      if (customVC && oldChannel?.members.size === 0) {
         try {
           await archiveChannel(oldChannel, guild);
           console.log(
-            `Removing voice channel permissions for ${isACustomVC.userId} for join to create channel`
+            `Removing voice channel permissions for ${
+              customVC.username ? customVC.username : customVC.userId
+            } for join to create channel`
           );
-          await joinToCreateChannel.permissionOverwrites.edit(
-            isACustomVC.userId,
-            {
-              [PermissionsBitField.Flags.Connect]: true,
-            }
+          logger.info(
+            `Removing voice channel permissions for ${
+              customVC.username ? customVC.username : customVC.userId
+            } for join to create channel`
           );
+          await joinToCreateChannel.permissionOverwrites.edit(customVC.userId, {
+            [PermissionsBitField.Flags.Connect]: true,
+          });
           console.log(
-            `Removed voice channel permissions sucessfully for join to create channel for user ${isACustomVC.userId}`
+            `Removed voice channel permissions successfully for join to create channel for user ${
+              customVC.username ? customVC.username : customVC.userId
+            }`
+          );
+          logger.info(
+            `Removed voice channel permissions successfully for join to create channel for user ${
+              customVC.username ? customVC.username : customVC.userId
+            }`
           );
         } catch (error) {
           console.error("Error archiving channel: ", error);
+          logger.error(`Error archiving channel: ${error}`);
         }
       }
 
@@ -162,6 +227,9 @@ module.exports = {
         console.log(
           `Locking join-to-create channel for ${user.username} (they returned to their own channel)`
         );
+        logger.info(
+          `Locking join-to-create channel for ${user.username} (they returned to their own channel)`
+        );
 
         await joinToCreateChannel.permissionOverwrites.edit(user.id, {
           [PermissionsBitField.Flags.Connect]: false,
@@ -182,31 +250,43 @@ module.exports = {
         );
 
         if (existingChannel) {
-          restoreChannel(existingChannel, guild, user.id);
+          await restoreChannel(
+            existingChannel,
+            guild,
+            user,
+            existingChannelEntry
+          );
 
           await newState.member.voice.setChannel(existingChannel);
 
           //when a user's custom vc in in the active category, lock join-to-create channel for them
 
           console.log(`Locking join-to-create channel for ${user.username}`);
+          logger.info(`Locking join-to-create channel for ${user.username}`);
 
           return await joinToCreateChannel.permissionOverwrites.edit(user.id, {
             [PermissionsBitField.Flags.Connect]: false,
           });
         } else {
-          await CreatedChannels.deleteOne({ userId: user.id });
-          console.log(`Deleted record of ${user.id}`);
+          // Channel doesn't exist, clean up orphaned record
+          try {
+            await CreatedChannels.deleteOne({ userId: user.id });
+            console.log(`Deleted orphaned record of ${user.id}`);
+            logger.info(`Deleted orphaned record of ${user.id}`);
+          } catch (error) {
+            console.error(
+              `Failed to delete orphaned record for ${user.id}: ${error.message}`
+            );
+            logger.error(
+              `Failed to delete orphaned record for ${user.id}: ${error.message}`,
+              error
+            );
+            // Continue anyway - createChannel will handle this with upsert
+          }
         }
       }
 
       const newChannel = await createChannel(user, newState.client, guild);
-
-      await CreatedChannels.create({
-        userId: user.id,
-        channelId: newChannel.id,
-      });
-
-      console.log(`Added new channel to database (for ${user.username})`);
 
       await newState.member.voice.setChannel(newChannel);
 
@@ -215,6 +295,7 @@ module.exports = {
       });
     } catch (error) {
       console.error("Error creating voice channel: ", error);
+      logger.error(`Error creating voice channel: ${error}`);
 
       //if someone joins join-to-create channel but leaves too quickly
       if (
@@ -229,7 +310,9 @@ module.exports = {
             const existingChannel = guild.channels.cache.get(
               existingChannelEntry.channelId
             );
-            await archiveChannel(existingChannel, guild);
+            if (existingChannel) {
+              await archiveChannel(existingChannel, guild);
+            }
             // await existingChannel?.setParent(archivedCategoryId, {
             //   lockPermissions: false,
             // });
@@ -242,6 +325,7 @@ module.exports = {
           }
         } catch (error) {
           console.log("Failed to archive channel.", error);
+          logger.error(`Failed to archive channel: ${error}`);
         }
       }
     }

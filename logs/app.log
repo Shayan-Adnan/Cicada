@@ -1,0 +1,960 @@
+{"level":"error","message":"Error creating voice channel: MongooseError: Operation `createdchannels.findOne()` buffering timed out after 10000ms"}
+{"level":"info","message":"Locking join-to-create channel for capnn."}
+{"level":"info","message":"Locking join-to-create channel for capnn. (they returned to their own channel)"}
+{"level":"info","message":"Attempting to archive channel Caps Channel"}
+{"level":"info","message":"Main Archived Category is full (5/50 channels)"}
+{"level":"info","message":"Second Archived Category is full (3/50 channels)"}
+{"level":"info","message":"Successfully archived to Third Archived Category"}
+{"level":"info","message":"Removing voice channel permissions for 411106140680617994 for join to create channel"}
+{"level":"info","message":"Removed voice channel permissions sucessfully for join to create channel for user 411106140680617994"}
+{"level":"info","message":"Locking join-to-create channel for capnn."}
+{"level":"info","message":"Locking join-to-create channel for capnn. (they returned to their own channel)"}
+{"level":"info","message":"Attempting to archive channel Caps Channel"}
+{"level":"info","message":"Successfully archived to Main Archived Category"}
+{"level":"info","message":"Removing voice channel permissions for 411106140680617994 for join to create channel"}
+{"level":"info","message":"Removed voice channel permissions sucessfully for join to create channel for user 411106140680617994"}
+{"level":"info","message":"Locking join-to-create channel for capnn.","timestamp":"2025-12-06T11:24:57.040Z"}
+{"level":"info","message":"Locking join-to-create channel for capnn. (they returned to their own channel)","timestamp":"2025-12-06T11:24:57.088Z"}
+{"level":"info","message":"Attempting to archive channel Caps Channel","timestamp":"2025-12-06T11:25:00.958Z"}
+{"level":"info","message":"Successfully archived to Main Archived Category","timestamp":"2025-12-06T11:25:01.277Z"}
+{"level":"info","message":"Removing voice channel permissions for 411106140680617994 for join to create channel","timestamp":"2025-12-06T11:25:01.278Z"}
+{"level":"info","message":"Removed voice channel permissions sucessfully for join to create channel for user 411106140680617994","timestamp":"2025-12-06T11:25:01.613Z"}
+{"level":"info","message":"Locking join-to-create channel for capnn.","timestamp":"2025-12-06T11:30:01.764Z"}
+{"level":"info","message":"Locking join-to-create channel for capnn. (they returned to their own channel)","timestamp":"2025-12-06T11:30:01.783Z"}
+{"level":"info","message":"Attempting to archive channel Caps Channel","timestamp":"2025-12-06T11:30:08.222Z"}
+{"level":"info","message":"Successfully archived to Main Archived Category","timestamp":"2025-12-06T11:30:08.689Z"}
+{"level":"info","message":"Removing voice channel permissions for 411106140680617994 for join to create channel","timestamp":"2025-12-06T11:30:08.690Z"}
+{"level":"info","message":"Removed voice channel permissions sucessfully for join to create channel for user 411106140680617994","timestamp":"2025-12-06T11:30:09.043Z"}
+{"level":"info","message":"Locking join-to-create channel for capnn.","timestamp":"2025-12-06T11:31:32.868Z"}
+{"level":"info","message":"Locking join-to-create channel for capnn. (they returned to their own channel)","timestamp":"2025-12-06T11:31:32.935Z"}
+{"level":"info","message":"Attempting to archive channel Caps Channel","timestamp":"2025-12-06T11:35:14.134Z"}
+{"level":"info","message":"Successfully archived to Main Archived Category","timestamp":"2025-12-06T11:35:14.532Z"}
+{"level":"info","message":"Removing voice channel permissions for 411106140680617994 for join to create channel","timestamp":"2025-12-06T11:35:14.533Z"}
+{"level":"info","message":"Removed voice channel permissions sucessfully for join to create channel for user 411106140680617994","timestamp":"2025-12-06T11:35:14.861Z"}
+{"level":"info","message":"Locking join-to-create channel for capnn.","timestamp":"2025-12-06T11:35:15.477Z"}
+{"level":"info","message":"Locking join-to-create channel for capnn. (they returned to their own channel)","timestamp":"2025-12-06T11:35:15.526Z"}
+{"level":"error","message":"Username doesn't exist in database record for capnn.. Adding username.","timestamp":"2025-12-06T11:35:16.417Z"}
+{"level":"info","message":"Attempting to archive channel Caps Channel","timestamp":"2025-12-06T11:35:41.276Z"}
+{"level":"info","message":"Successfully archived to Main Archived Category","timestamp":"2025-12-06T11:35:41.721Z"}
+{"level":"info","message":"Removing voice channel permissions for capnn. for join to create channel","timestamp":"2025-12-06T11:35:41.722Z"}
+{"level":"info","message":"Removed voice channel permissions sucessfully for join to create channel for user capnn.","timestamp":"2025-12-06T11:35:42.249Z"}
+{"level":"info","message":"Locking join-to-create channel for capnn.","timestamp":"2025-12-06T11:35:43.090Z"}
+{"level":"info","message":"Locking join-to-create channel for capnn. (they returned to their own channel)","timestamp":"2025-12-06T11:35:43.145Z"}
+{"level":"info","message":"Attempting to archive channel Caps Channel","timestamp":"2025-12-06T11:36:11.325Z"}
+{"level":"info","message":"Successfully archived to Main Archived Category","timestamp":"2025-12-06T11:36:11.681Z"}
+{"level":"info","message":"Removing voice channel permissions for capnn. for join to create channel","timestamp":"2025-12-06T11:36:11.682Z"}
+{"level":"info","message":"Removed voice channel permissions sucessfully for join to create channel for user capnn.","timestamp":"2025-12-06T11:36:12.050Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T11:38:00.032Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T11:40:00.029Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T11:40:00.069Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T11:41:00.023Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T11:41:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T11:42:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T11:42:00.054Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T11:44:00.018Z"}
+{"level":"info","message":"Channel of capnn. has been inactive for 2 months. Pruning channel...","timestamp":"2025-12-06T11:44:00.063Z"}
+{"level":"info","message":"Successfully pruned channel and DB record for capnn.","timestamp":"2025-12-06T11:44:00.104Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T11:45:00.023Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T11:45:00.061Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T11:46:00.026Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T11:46:00.063Z"}
+{"level":"info","message":"Added new channel to database (for capnn.)","timestamp":"2025-12-06T11:46:36.410Z"}
+{"level":"info","message":"Locking join-to-create channel for capnn. (they returned to their own channel)","timestamp":"2025-12-06T11:46:36.958Z"}
+{"level":"info","message":"Attempting to archive channel capnn.'s channel","timestamp":"2025-12-06T11:46:40.586Z"}
+{"level":"info","message":"Successfully archived to Main Archived Category","timestamp":"2025-12-06T11:46:40.888Z"}
+{"level":"info","message":"Removing voice channel permissions for capnn. for join to create channel","timestamp":"2025-12-06T11:46:40.888Z"}
+{"level":"info","message":"Removed voice channel permissions sucessfully for join to create channel for user capnn.","timestamp":"2025-12-06T11:46:41.250Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T11:47:00.029Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T11:47:00.067Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T11:48:00.021Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T11:48:00.057Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T11:49:00.031Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T11:49:00.068Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T11:50:00.031Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T11:50:00.068Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T11:51:00.007Z"}
+{"level":"info","message":"Channel of capnn. has been inactive for 2 months. Pruning channel...","timestamp":"2025-12-06T11:51:00.044Z"}
+{"level":"info","message":"Successfully pruned channel and DB record for capnn.","timestamp":"2025-12-06T11:51:00.083Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T11:52:00.031Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T11:52:00.068Z"}
+{"level":"info","message":"Added new channel to database (for capnn.)","timestamp":"2025-12-06T11:52:48.966Z"}
+{"level":"info","message":"Locking join-to-create channel for capnn. (they returned to their own channel)","timestamp":"2025-12-06T11:52:49.432Z"}
+{"level":"info","message":"Attempting to archive channel capnn.'s channel","timestamp":"2025-12-06T11:52:51.958Z"}
+{"level":"info","message":"Successfully archived to Main Archived Category","timestamp":"2025-12-06T11:52:52.292Z"}
+{"level":"info","message":"Removing voice channel permissions for capnn. for join to create channel","timestamp":"2025-12-06T11:52:52.292Z"}
+{"level":"info","message":"Removed voice channel permissions sucessfully for join to create channel for user capnn.","timestamp":"2025-12-06T11:52:52.689Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T11:53:00.017Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T11:53:00.054Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T11:54:00.028Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T11:54:00.066Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T11:55:00.022Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T11:55:00.060Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T11:56:00.021Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T11:56:00.058Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T11:57:00.011Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T11:57:00.048Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T11:58:00.032Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T11:58:00.069Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T11:59:00.023Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T11:59:00.060Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:00:00.025Z"}
+{"level":"info","message":"Channel of capnn. has been inactive for 2 months. Pruning channel...","timestamp":"2025-12-06T12:00:00.062Z"}
+{"level":"info","message":"Successfully pruned channel and DB record for capnn.","timestamp":"2025-12-06T12:00:00.102Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:01:00.024Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:01:00.062Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:02:00.026Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:02:00.063Z"}
+{"level":"info","message":"Added new channel to database (for capnn.)","timestamp":"2025-12-06T12:02:51.101Z"}
+{"level":"info","message":"Locking join-to-create channel for capnn. (they returned to their own channel)","timestamp":"2025-12-06T12:02:51.603Z"}
+{"level":"info","message":"Attempting to archive channel capnn.'s channel","timestamp":"2025-12-06T12:02:53.926Z"}
+{"level":"info","message":"Successfully archived to Main Archived Category","timestamp":"2025-12-06T12:02:54.584Z"}
+{"level":"info","message":"Removing voice channel permissions for capnn. for join to create channel","timestamp":"2025-12-06T12:02:54.584Z"}
+{"level":"info","message":"Removed voice channel permissions sucessfully for join to create channel for user capnn.","timestamp":"2025-12-06T12:02:54.987Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:03:00.031Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:03:00.031Z","timestamp":"2025-12-06T12:03:00.032Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:03:00.086Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:04:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:04:00.019Z","timestamp":"2025-12-06T12:04:00.019Z"}
+{"level":"info","message":"capnn.'s channel has been inactive for 60 days (lastMovedAt: Tue Oct 07 2025 17:02:51 GMT+0500 (Pakistan Standard Time)). Pruning channel...","timestamp":"2025-12-06T12:04:00.061Z"}
+{"level":"info","message":"Successfully pruned channel and DB record for capnn.'s channel","timestamp":"2025-12-06T12:04:00.461Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:05:00.015Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:05:00.015Z","timestamp":"2025-12-06T12:05:00.016Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:05:00.055Z"}
+{"level":"info","message":"Added new channel to database (for capnn.)","timestamp":"2025-12-06T12:05:34.893Z"}
+{"level":"info","message":"Locking join-to-create channel for capnn. (they returned to their own channel)","timestamp":"2025-12-06T12:05:35.374Z"}
+{"level":"info","message":"Attempting to archive channel capnn.'s channel","timestamp":"2025-12-06T12:05:36.414Z"}
+{"level":"info","message":"Successfully archived to Main Archived Category","timestamp":"2025-12-06T12:05:36.752Z"}
+{"level":"info","message":"Removing voice channel permissions for capnn. for join to create channel","timestamp":"2025-12-06T12:05:36.752Z"}
+{"level":"info","message":"Removed voice channel permissions sucessfully for join to create channel for user capnn.","timestamp":"2025-12-06T12:05:37.097Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:06:00.023Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:06:00.023Z","timestamp":"2025-12-06T12:06:00.023Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:06:00.062Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:07:00.016Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:07:00.016Z","timestamp":"2025-12-06T12:07:00.016Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:07:00.055Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:08:00.026Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:08:00.026Z","timestamp":"2025-12-06T12:08:00.026Z"}
+{"level":"info","message":"capnn.'s channel has been inactive for 60 days (lastMovedAt: Tue Oct 07 2025 17:05:34 GMT+0500 (Pakistan Standard Time)). Pruning channel...","timestamp":"2025-12-06T12:08:00.066Z"}
+{"level":"info","message":"Successfully pruned channel and DB record for capnn.'s channel","timestamp":"2025-12-06T12:08:01.103Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:09:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:09:00.027Z","timestamp":"2025-12-06T12:09:00.028Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:09:00.067Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:10:00.022Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:10:00.022Z","timestamp":"2025-12-06T12:10:00.023Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:10:00.062Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:11:00.020Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:11:00.020Z","timestamp":"2025-12-06T12:11:00.021Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:11:00.060Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:12:00.022Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:12:00.023Z","timestamp":"2025-12-06T12:12:00.023Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:12:00.062Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:13:00.022Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:13:00.023Z","timestamp":"2025-12-06T12:13:00.023Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:13:00.062Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:14:00.019Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:14:00.020Z","timestamp":"2025-12-06T12:14:00.020Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:14:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:15:00.030Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:15:00.030Z","timestamp":"2025-12-06T12:15:00.030Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:15:00.069Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:16:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:16:00.018Z","timestamp":"2025-12-06T12:16:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:16:00.057Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:17:00.023Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:17:00.023Z","timestamp":"2025-12-06T12:17:00.023Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:17:00.062Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:18:00.021Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:18:00.021Z","timestamp":"2025-12-06T12:18:00.021Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:18:00.060Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:19:00.019Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:19:00.019Z","timestamp":"2025-12-06T12:19:00.019Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:19:00.058Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:20:00.023Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:20:00.023Z","timestamp":"2025-12-06T12:20:00.023Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:20:00.062Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:21:00.017Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:21:00.017Z","timestamp":"2025-12-06T12:21:00.017Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:21:00.057Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:22:00.026Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:22:00.026Z","timestamp":"2025-12-06T12:22:00.027Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:22:00.066Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:23:00.025Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:23:00.025Z","timestamp":"2025-12-06T12:23:00.025Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:23:00.064Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:24:00.030Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:24:00.031Z","timestamp":"2025-12-06T12:24:00.031Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:24:00.070Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:25:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:25:00.027Z","timestamp":"2025-12-06T12:25:00.027Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:25:00.067Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:26:00.020Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:26:00.020Z","timestamp":"2025-12-06T12:26:00.020Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:26:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:27:00.024Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:27:00.024Z","timestamp":"2025-12-06T12:27:00.024Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:27:00.063Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:28:00.016Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:28:00.016Z","timestamp":"2025-12-06T12:28:00.016Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:28:00.055Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:29:00.020Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:29:00.020Z","timestamp":"2025-12-06T12:29:00.020Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:29:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:30:00.017Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:30:00.017Z","timestamp":"2025-12-06T12:30:00.017Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:30:00.056Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:31:00.028Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:31:00.028Z","timestamp":"2025-12-06T12:31:00.029Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:31:00.068Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:32:00.022Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:32:00.022Z","timestamp":"2025-12-06T12:32:00.023Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:32:00.066Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:33:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:33:00.018Z","timestamp":"2025-12-06T12:33:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:33:00.057Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:34:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:34:00.018Z","timestamp":"2025-12-06T12:34:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:34:00.057Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:35:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:35:00.018Z","timestamp":"2025-12-06T12:35:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:35:00.061Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:36:00.025Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:36:00.025Z","timestamp":"2025-12-06T12:36:00.025Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:36:00.064Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:37:00.024Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:37:00.024Z","timestamp":"2025-12-06T12:37:00.024Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:37:00.063Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:38:00.032Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:38:00.032Z","timestamp":"2025-12-06T12:38:00.032Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:38:00.071Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:39:00.024Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:39:00.024Z","timestamp":"2025-12-06T12:39:00.024Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:39:00.063Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:40:00.024Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:40:00.024Z","timestamp":"2025-12-06T12:40:00.024Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:40:00.063Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:41:00.025Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:41:00.025Z","timestamp":"2025-12-06T12:41:00.025Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:41:00.064Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:42:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:42:00.018Z","timestamp":"2025-12-06T12:42:00.019Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:42:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:43:00.025Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:43:00.025Z","timestamp":"2025-12-06T12:43:00.025Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:43:00.064Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:44:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:44:00.018Z","timestamp":"2025-12-06T12:44:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:44:00.058Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:45:00.025Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:45:00.025Z","timestamp":"2025-12-06T12:45:00.025Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:45:00.064Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:46:00.012Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:46:00.012Z","timestamp":"2025-12-06T12:46:00.012Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:46:00.051Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:47:00.017Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:47:00.017Z","timestamp":"2025-12-06T12:47:00.017Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:47:00.057Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:48:00.022Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:48:00.023Z","timestamp":"2025-12-06T12:48:00.023Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:48:00.062Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:49:00.020Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:49:00.020Z","timestamp":"2025-12-06T12:49:00.020Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:49:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:50:00.021Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:50:00.021Z","timestamp":"2025-12-06T12:50:00.021Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:50:00.060Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:51:00.029Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:51:00.029Z","timestamp":"2025-12-06T12:51:00.029Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:51:00.069Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:52:00.017Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:52:00.017Z","timestamp":"2025-12-06T12:52:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:52:00.065Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:53:00.020Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:53:00.021Z","timestamp":"2025-12-06T12:53:00.021Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:53:00.067Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:54:00.029Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:54:00.029Z","timestamp":"2025-12-06T12:54:00.030Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:54:00.069Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:55:00.017Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:55:00.017Z","timestamp":"2025-12-06T12:55:00.017Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:55:00.056Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:56:00.022Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:56:00.022Z","timestamp":"2025-12-06T12:56:00.023Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:56:00.061Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:57:00.020Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:57:00.020Z","timestamp":"2025-12-06T12:57:00.020Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:57:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:58:00.016Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:58:00.016Z","timestamp":"2025-12-06T12:58:00.017Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:58:00.056Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T12:59:00.028Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T12:59:00.028Z","timestamp":"2025-12-06T12:59:00.028Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T12:59:00.067Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:00:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:00:00.018Z","timestamp":"2025-12-06T13:00:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:00:00.062Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:01:00.022Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:01:00.023Z","timestamp":"2025-12-06T13:01:00.023Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:01:00.062Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:02:00.028Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:02:00.028Z","timestamp":"2025-12-06T13:02:00.028Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:02:00.076Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:03:00.031Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:03:00.031Z","timestamp":"2025-12-06T13:03:00.031Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:03:00.071Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:04:00.020Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:04:00.021Z","timestamp":"2025-12-06T13:04:00.021Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:04:00.060Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:05:00.020Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:05:00.020Z","timestamp":"2025-12-06T13:05:00.020Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:05:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:06:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:06:00.027Z","timestamp":"2025-12-06T13:06:00.027Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:06:00.066Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:07:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:07:00.018Z","timestamp":"2025-12-06T13:07:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:07:00.057Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:08:00.025Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:08:00.025Z","timestamp":"2025-12-06T13:08:00.025Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:08:00.064Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:09:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:09:00.027Z","timestamp":"2025-12-06T13:09:00.027Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:09:00.066Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:10:00.025Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:10:00.025Z","timestamp":"2025-12-06T13:10:00.025Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:10:00.064Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:11:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:11:00.018Z","timestamp":"2025-12-06T13:11:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:11:00.057Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:12:00.021Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:12:00.021Z","timestamp":"2025-12-06T13:12:00.021Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:12:00.060Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:13:00.019Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:13:00.019Z","timestamp":"2025-12-06T13:13:00.019Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:13:00.058Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:14:00.029Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:14:00.029Z","timestamp":"2025-12-06T13:14:00.030Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:14:00.068Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:15:00.024Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:15:00.024Z","timestamp":"2025-12-06T13:15:00.024Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:15:00.063Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:16:00.026Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:16:00.026Z","timestamp":"2025-12-06T13:16:00.026Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:16:00.065Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:17:00.028Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:17:00.029Z","timestamp":"2025-12-06T13:17:00.029Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:17:00.067Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:18:00.025Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:18:00.025Z","timestamp":"2025-12-06T13:18:00.025Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:18:00.064Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:19:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:19:00.018Z","timestamp":"2025-12-06T13:19:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:19:00.057Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:20:00.024Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:20:00.024Z","timestamp":"2025-12-06T13:20:00.024Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:20:00.063Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:21:00.029Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:21:00.029Z","timestamp":"2025-12-06T13:21:00.029Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:21:00.068Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:22:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:22:00.027Z","timestamp":"2025-12-06T13:22:00.027Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:22:00.066Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:23:00.031Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:23:00.031Z","timestamp":"2025-12-06T13:23:00.031Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:23:00.081Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:24:00.016Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:24:00.016Z","timestamp":"2025-12-06T13:24:00.017Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:24:00.055Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:25:00.023Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:25:00.023Z","timestamp":"2025-12-06T13:25:00.023Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:25:00.062Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:26:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:26:00.027Z","timestamp":"2025-12-06T13:26:00.027Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:26:00.066Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:27:00.026Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:27:00.026Z","timestamp":"2025-12-06T13:27:00.026Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:27:00.065Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:28:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:28:00.027Z","timestamp":"2025-12-06T13:28:00.027Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:28:00.066Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:29:00.028Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:29:00.029Z","timestamp":"2025-12-06T13:29:00.029Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:29:00.071Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:30:00.029Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:30:00.029Z","timestamp":"2025-12-06T13:30:00.030Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:30:00.068Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:31:00.016Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:31:00.017Z","timestamp":"2025-12-06T13:31:00.017Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:31:00.056Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:32:00.023Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:32:00.023Z","timestamp":"2025-12-06T13:32:00.024Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:32:00.063Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:33:00.029Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:33:00.029Z","timestamp":"2025-12-06T13:33:00.029Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:33:00.068Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:34:00.019Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:34:00.019Z","timestamp":"2025-12-06T13:34:00.019Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:34:00.058Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:35:00.015Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:35:00.015Z","timestamp":"2025-12-06T13:35:00.015Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:35:00.054Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:36:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:36:00.018Z","timestamp":"2025-12-06T13:36:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:36:00.062Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:37:00.019Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:37:00.019Z","timestamp":"2025-12-06T13:37:00.019Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:37:00.058Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:38:00.017Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:38:00.017Z","timestamp":"2025-12-06T13:38:00.017Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:38:00.056Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:39:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:39:00.027Z","timestamp":"2025-12-06T13:39:00.028Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:39:00.067Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:40:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:40:00.027Z","timestamp":"2025-12-06T13:40:00.028Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:40:00.066Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:41:00.022Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:41:00.022Z","timestamp":"2025-12-06T13:41:00.022Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:41:00.061Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:42:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:42:00.018Z","timestamp":"2025-12-06T13:42:00.019Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:42:00.058Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:43:00.020Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:43:00.020Z","timestamp":"2025-12-06T13:43:00.020Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:43:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:44:00.030Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:44:00.030Z","timestamp":"2025-12-06T13:44:00.030Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:44:00.069Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:45:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:45:00.027Z","timestamp":"2025-12-06T13:45:00.028Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:45:00.067Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:46:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:46:00.018Z","timestamp":"2025-12-06T13:46:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:46:00.057Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:47:00.025Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:47:00.026Z","timestamp":"2025-12-06T13:47:00.026Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:47:00.065Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:48:00.022Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:48:00.022Z","timestamp":"2025-12-06T13:48:00.022Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:48:00.060Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:49:00.017Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:49:00.017Z","timestamp":"2025-12-06T13:49:00.017Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:49:00.056Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:50:00.020Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:50:00.020Z","timestamp":"2025-12-06T13:50:00.020Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:50:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:51:00.030Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:51:00.030Z","timestamp":"2025-12-06T13:51:00.031Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:51:00.071Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:52:00.026Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:52:00.026Z","timestamp":"2025-12-06T13:52:00.026Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:52:00.065Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:53:00.029Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:53:00.029Z","timestamp":"2025-12-06T13:53:00.029Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:53:00.068Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:54:00.019Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:54:00.019Z","timestamp":"2025-12-06T13:54:00.019Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:54:00.057Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:55:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:55:00.027Z","timestamp":"2025-12-06T13:55:00.027Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:55:00.066Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:56:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:56:00.018Z","timestamp":"2025-12-06T13:56:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:56:00.057Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:57:00.026Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:57:00.026Z","timestamp":"2025-12-06T13:57:00.026Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:57:00.065Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:58:00.022Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:58:00.022Z","timestamp":"2025-12-06T13:58:00.022Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:58:00.061Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T13:59:00.017Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T13:59:00.017Z","timestamp":"2025-12-06T13:59:00.017Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T13:59:00.056Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:00:00.020Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:00:00.020Z","timestamp":"2025-12-06T14:00:00.020Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:00:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:01:00.009Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:01:00.009Z","timestamp":"2025-12-06T14:01:00.010Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:01:00.049Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:02:00.011Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:02:00.011Z","timestamp":"2025-12-06T14:02:00.011Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:02:00.051Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:03:00.026Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:03:00.026Z","timestamp":"2025-12-06T14:03:00.026Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:03:00.065Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:04:00.021Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:04:00.021Z","timestamp":"2025-12-06T14:04:00.021Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:04:00.060Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:05:00.028Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:05:00.028Z","timestamp":"2025-12-06T14:05:00.028Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:05:00.067Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:06:00.007Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:06:00.007Z","timestamp":"2025-12-06T14:06:00.007Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:06:00.046Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:07:00.012Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:07:00.012Z","timestamp":"2025-12-06T14:07:00.012Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:07:00.051Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:08:00.016Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:08:00.016Z","timestamp":"2025-12-06T14:08:00.017Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:08:00.055Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:09:00.011Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:09:00.011Z","timestamp":"2025-12-06T14:09:00.012Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:09:00.051Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:10:00.013Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:10:00.013Z","timestamp":"2025-12-06T14:10:00.014Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:10:00.053Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:11:00.029Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:11:00.029Z","timestamp":"2025-12-06T14:11:00.029Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:11:00.068Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:12:00.006Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:12:00.006Z","timestamp":"2025-12-06T14:12:00.007Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:12:00.046Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:13:00.024Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:13:00.024Z","timestamp":"2025-12-06T14:13:00.024Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:13:00.063Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:14:00.028Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:14:00.028Z","timestamp":"2025-12-06T14:14:00.028Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:14:00.067Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:15:00.030Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:15:00.030Z","timestamp":"2025-12-06T14:15:00.030Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:15:00.070Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:16:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:16:00.027Z","timestamp":"2025-12-06T14:16:00.027Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:16:00.066Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:17:00.028Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:17:00.028Z","timestamp":"2025-12-06T14:17:00.028Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:17:00.067Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:18:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:18:00.027Z","timestamp":"2025-12-06T14:18:00.028Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:18:00.067Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:19:00.028Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:19:00.029Z","timestamp":"2025-12-06T14:19:00.029Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:19:00.067Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:20:00.030Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:20:00.030Z","timestamp":"2025-12-06T14:20:00.030Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:20:00.069Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:21:00.026Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:21:00.027Z","timestamp":"2025-12-06T14:21:00.027Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:21:00.066Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:22:00.022Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:22:00.022Z","timestamp":"2025-12-06T14:22:00.022Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:22:00.061Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:23:00.026Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:23:00.026Z","timestamp":"2025-12-06T14:23:00.026Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:23:00.065Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:24:00.021Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:24:00.021Z","timestamp":"2025-12-06T14:24:00.021Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:24:00.061Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:25:00.024Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:25:00.024Z","timestamp":"2025-12-06T14:25:00.024Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:25:00.063Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:26:00.028Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:26:00.028Z","timestamp":"2025-12-06T14:26:00.029Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:26:00.068Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:27:00.025Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:27:00.026Z","timestamp":"2025-12-06T14:27:00.026Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:27:00.065Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:28:00.021Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:28:00.021Z","timestamp":"2025-12-06T14:28:00.021Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:28:00.060Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:29:00.021Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:29:00.022Z","timestamp":"2025-12-06T14:29:00.023Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:29:00.062Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:30:00.011Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:30:00.011Z","timestamp":"2025-12-06T14:30:00.011Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:30:00.050Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:31:00.020Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:31:00.020Z","timestamp":"2025-12-06T14:31:00.020Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:31:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:32:00.014Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:32:00.014Z","timestamp":"2025-12-06T14:32:00.015Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:32:00.054Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:33:00.010Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:33:00.010Z","timestamp":"2025-12-06T14:33:00.010Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:33:00.049Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:34:00.026Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:34:00.026Z","timestamp":"2025-12-06T14:34:00.026Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:34:00.065Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:35:00.019Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:35:00.020Z","timestamp":"2025-12-06T14:35:00.020Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:35:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:36:00.022Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:36:00.023Z","timestamp":"2025-12-06T14:36:00.023Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:36:00.062Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:37:00.019Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:37:00.019Z","timestamp":"2025-12-06T14:37:00.019Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:37:00.058Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:38:00.019Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:38:00.020Z","timestamp":"2025-12-06T14:38:00.020Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:38:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:39:00.025Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:39:00.026Z","timestamp":"2025-12-06T14:39:00.026Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:39:00.066Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:40:00.024Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:40:00.024Z","timestamp":"2025-12-06T14:40:00.024Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:40:00.063Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:41:00.024Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:41:00.024Z","timestamp":"2025-12-06T14:41:00.024Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:41:00.063Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:42:00.033Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:42:00.033Z","timestamp":"2025-12-06T14:42:00.033Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:42:00.072Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:43:00.022Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:43:00.022Z","timestamp":"2025-12-06T14:43:00.022Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:43:00.061Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:44:00.023Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:44:00.023Z","timestamp":"2025-12-06T14:44:00.023Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:44:00.062Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:45:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:45:00.027Z","timestamp":"2025-12-06T14:45:00.027Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:45:00.068Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:46:00.028Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:46:00.029Z","timestamp":"2025-12-06T14:46:00.029Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:46:00.068Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:47:00.025Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:47:00.025Z","timestamp":"2025-12-06T14:47:00.025Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:47:00.064Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:48:00.026Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:48:00.027Z","timestamp":"2025-12-06T14:48:00.027Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:48:00.066Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:49:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:49:00.018Z","timestamp":"2025-12-06T14:49:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:49:00.057Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:50:00.022Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:50:00.022Z","timestamp":"2025-12-06T14:50:00.022Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:50:00.062Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:51:00.022Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:51:00.022Z","timestamp":"2025-12-06T14:51:00.022Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:51:00.061Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:52:00.024Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:52:00.024Z","timestamp":"2025-12-06T14:52:00.024Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:52:00.063Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:53:00.026Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:53:00.026Z","timestamp":"2025-12-06T14:53:00.026Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:53:00.065Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:54:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:54:00.027Z","timestamp":"2025-12-06T14:54:00.028Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:54:00.067Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:55:00.023Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:55:00.023Z","timestamp":"2025-12-06T14:55:00.023Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:55:00.062Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:56:00.022Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:56:00.022Z","timestamp":"2025-12-06T14:56:00.022Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:56:00.060Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:57:00.019Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:57:00.019Z","timestamp":"2025-12-06T14:57:00.019Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:57:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:58:00.030Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:58:00.030Z","timestamp":"2025-12-06T14:58:00.030Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:58:00.069Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T14:59:00.016Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T14:59:00.017Z","timestamp":"2025-12-06T14:59:00.017Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T14:59:00.056Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:00:00.022Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:00:00.022Z","timestamp":"2025-12-06T15:00:00.023Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:00:00.061Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:01:00.028Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:01:00.028Z","timestamp":"2025-12-06T15:01:00.028Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:01:00.066Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:02:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:02:00.018Z","timestamp":"2025-12-06T15:02:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:02:00.057Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:03:00.019Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:03:00.019Z","timestamp":"2025-12-06T15:03:00.020Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:03:00.058Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:04:00.030Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:04:00.030Z","timestamp":"2025-12-06T15:04:00.030Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:04:00.069Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:05:00.021Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:05:00.021Z","timestamp":"2025-12-06T15:05:00.022Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:05:00.061Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:06:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:06:00.027Z","timestamp":"2025-12-06T15:06:00.027Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:06:00.066Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:07:00.025Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:07:00.025Z","timestamp":"2025-12-06T15:07:00.026Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:07:00.065Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:08:00.029Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:08:00.029Z","timestamp":"2025-12-06T15:08:00.029Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:08:00.067Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:09:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:09:00.027Z","timestamp":"2025-12-06T15:09:00.027Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:09:00.065Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:10:00.019Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:10:00.019Z","timestamp":"2025-12-06T15:10:00.019Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:10:00.058Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:11:00.031Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:11:00.031Z","timestamp":"2025-12-06T15:11:00.031Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:11:00.070Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:12:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:12:00.027Z","timestamp":"2025-12-06T15:12:00.027Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:12:00.065Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:13:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:13:00.018Z","timestamp":"2025-12-06T15:13:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:13:00.057Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:14:00.031Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:14:00.031Z","timestamp":"2025-12-06T15:14:00.031Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:14:00.070Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:15:00.009Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:15:00.009Z","timestamp":"2025-12-06T15:15:00.010Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:15:00.049Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:16:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:16:00.018Z","timestamp":"2025-12-06T15:16:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:16:00.058Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:17:00.024Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:17:00.024Z","timestamp":"2025-12-06T15:17:00.024Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:17:00.062Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:18:00.019Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:18:00.019Z","timestamp":"2025-12-06T15:18:00.019Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:18:00.058Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:19:00.017Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:19:00.017Z","timestamp":"2025-12-06T15:19:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:19:00.056Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:20:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:20:00.018Z","timestamp":"2025-12-06T15:20:00.019Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:20:00.057Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:21:00.031Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:21:00.032Z","timestamp":"2025-12-06T15:21:00.032Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:21:00.072Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:22:00.030Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:22:00.030Z","timestamp":"2025-12-06T15:22:00.030Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:22:00.070Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:23:00.020Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:23:00.020Z","timestamp":"2025-12-06T15:23:00.021Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:23:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:24:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:24:00.018Z","timestamp":"2025-12-06T15:24:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:24:00.056Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:25:00.016Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:25:00.016Z","timestamp":"2025-12-06T15:25:00.016Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:25:00.056Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:26:00.030Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:26:00.031Z","timestamp":"2025-12-06T15:26:00.031Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:26:00.070Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:27:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:27:00.027Z","timestamp":"2025-12-06T15:27:00.027Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:27:00.066Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:28:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:28:00.027Z","timestamp":"2025-12-06T15:28:00.027Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:28:00.066Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:29:00.017Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:29:00.017Z","timestamp":"2025-12-06T15:29:00.017Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:29:00.057Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:30:00.037Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:30:00.037Z","timestamp":"2025-12-06T15:30:00.040Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:30:00.084Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:31:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:31:00.018Z","timestamp":"2025-12-06T15:31:00.019Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:31:00.058Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:32:00.025Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:32:00.025Z","timestamp":"2025-12-06T15:32:00.026Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:32:00.065Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:33:00.028Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:33:00.028Z","timestamp":"2025-12-06T15:33:00.028Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:33:00.067Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:34:00.016Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:34:00.017Z","timestamp":"2025-12-06T15:34:00.017Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:34:00.056Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:35:00.028Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:35:00.028Z","timestamp":"2025-12-06T15:35:00.028Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:35:00.068Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:36:00.030Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:36:00.030Z","timestamp":"2025-12-06T15:36:00.031Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:36:00.069Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:37:00.025Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:37:00.025Z","timestamp":"2025-12-06T15:37:00.025Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:37:00.064Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:38:00.029Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:38:00.029Z","timestamp":"2025-12-06T15:38:00.029Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:38:00.068Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:39:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:39:00.018Z","timestamp":"2025-12-06T15:39:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:39:00.057Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:40:00.023Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:40:00.023Z","timestamp":"2025-12-06T15:40:00.024Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:40:00.063Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:41:00.024Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:41:00.024Z","timestamp":"2025-12-06T15:41:00.024Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:41:00.065Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:42:00.020Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:42:00.020Z","timestamp":"2025-12-06T15:42:00.020Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:42:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:43:00.028Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:43:00.028Z","timestamp":"2025-12-06T15:43:00.028Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:43:00.068Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:44:00.025Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:44:00.025Z","timestamp":"2025-12-06T15:44:00.025Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:44:00.064Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:45:00.014Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:45:00.014Z","timestamp":"2025-12-06T15:45:00.015Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:45:00.056Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:46:00.024Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:46:00.025Z","timestamp":"2025-12-06T15:46:00.025Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:46:00.064Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:47:00.031Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:47:00.031Z","timestamp":"2025-12-06T15:47:00.031Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:47:00.070Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:48:00.020Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:48:00.020Z","timestamp":"2025-12-06T15:48:00.020Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:48:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:49:00.023Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:49:00.023Z","timestamp":"2025-12-06T15:49:00.024Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:49:00.063Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:50:00.028Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:50:00.028Z","timestamp":"2025-12-06T15:50:00.029Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:50:00.068Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:51:00.029Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:51:00.029Z","timestamp":"2025-12-06T15:51:00.030Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:51:00.069Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:52:00.029Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:52:00.029Z","timestamp":"2025-12-06T15:52:00.030Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:52:00.069Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:53:00.023Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:53:00.023Z","timestamp":"2025-12-06T15:53:00.023Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:53:00.062Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:54:00.030Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:54:00.031Z","timestamp":"2025-12-06T15:54:00.031Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:54:00.070Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:55:00.032Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:55:00.032Z","timestamp":"2025-12-06T15:55:00.032Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:55:00.071Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:56:00.021Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:56:00.022Z","timestamp":"2025-12-06T15:56:00.022Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:56:00.061Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:57:00.021Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:57:00.021Z","timestamp":"2025-12-06T15:57:00.022Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:57:00.061Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:58:00.028Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:58:00.028Z","timestamp":"2025-12-06T15:58:00.028Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:58:00.067Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T15:59:00.029Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T15:59:00.029Z","timestamp":"2025-12-06T15:59:00.029Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T15:59:00.068Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:00:00.029Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:00:00.029Z","timestamp":"2025-12-06T16:00:00.030Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:00:00.069Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:01:00.024Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:01:00.024Z","timestamp":"2025-12-06T16:01:00.025Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:01:00.063Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:02:00.016Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:02:00.017Z","timestamp":"2025-12-06T16:02:00.017Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:02:00.056Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:03:00.017Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:03:00.017Z","timestamp":"2025-12-06T16:03:00.017Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:03:00.056Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:04:00.028Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:04:00.028Z","timestamp":"2025-12-06T16:04:00.028Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:04:00.068Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:05:00.015Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:05:00.016Z","timestamp":"2025-12-06T16:05:00.016Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:05:00.054Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:06:00.029Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:06:00.029Z","timestamp":"2025-12-06T16:06:00.029Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:06:00.069Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:07:00.019Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:07:00.019Z","timestamp":"2025-12-06T16:07:00.020Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:07:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:08:00.017Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:08:00.017Z","timestamp":"2025-12-06T16:08:00.017Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:08:00.056Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:09:00.031Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:09:00.031Z","timestamp":"2025-12-06T16:09:00.031Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:09:00.070Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:10:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:10:00.018Z","timestamp":"2025-12-06T16:10:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:10:00.057Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:11:00.023Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:11:00.023Z","timestamp":"2025-12-06T16:11:00.023Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:11:00.062Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:12:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:12:00.028Z","timestamp":"2025-12-06T16:12:00.028Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:12:00.067Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:13:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:13:00.019Z","timestamp":"2025-12-06T16:13:00.019Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:13:00.058Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:14:00.026Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:14:00.026Z","timestamp":"2025-12-06T16:14:00.026Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:14:00.065Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:15:00.019Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:15:00.019Z","timestamp":"2025-12-06T16:15:00.020Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:15:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:16:00.018Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:16:00.018Z","timestamp":"2025-12-06T16:16:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:16:00.058Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:17:00.020Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:17:00.020Z","timestamp":"2025-12-06T16:17:00.020Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:17:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:18:00.020Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:18:00.020Z","timestamp":"2025-12-06T16:18:00.020Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:18:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:19:00.023Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:19:00.023Z","timestamp":"2025-12-06T16:19:00.024Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:19:00.063Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:20:00.021Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:20:00.021Z","timestamp":"2025-12-06T16:20:00.021Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:20:00.060Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:21:00.026Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:21:00.026Z","timestamp":"2025-12-06T16:21:00.026Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:21:00.065Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:22:00.021Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:22:00.021Z","timestamp":"2025-12-06T16:22:00.021Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:22:00.060Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:23:00.020Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:23:00.020Z","timestamp":"2025-12-06T16:23:00.021Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:23:00.060Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:24:00.008Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:24:00.008Z","timestamp":"2025-12-06T16:24:00.008Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:24:00.076Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:25:00.029Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:25:00.029Z","timestamp":"2025-12-06T16:25:00.030Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:25:00.069Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:26:00.029Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:26:00.029Z","timestamp":"2025-12-06T16:26:00.029Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:26:00.068Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:27:00.025Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:27:00.025Z","timestamp":"2025-12-06T16:27:00.025Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:27:00.063Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:28:00.024Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:28:00.025Z","timestamp":"2025-12-06T16:28:00.025Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:28:00.063Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:29:00.020Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:29:00.020Z","timestamp":"2025-12-06T16:29:00.020Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:29:00.058Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:30:00.020Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:30:00.020Z","timestamp":"2025-12-06T16:30:00.020Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:30:00.058Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:31:00.026Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:31:00.026Z","timestamp":"2025-12-06T16:31:00.027Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:31:00.065Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:32:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:32:00.027Z","timestamp":"2025-12-06T16:32:00.027Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:32:00.066Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:33:00.024Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:33:00.024Z","timestamp":"2025-12-06T16:33:00.024Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:33:00.062Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:34:00.016Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:34:00.017Z","timestamp":"2025-12-06T16:34:00.017Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:34:00.055Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:35:00.029Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:35:00.030Z","timestamp":"2025-12-06T16:35:00.030Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:35:00.068Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:36:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:36:00.027Z","timestamp":"2025-12-06T16:36:00.027Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:36:00.065Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:37:00.027Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:37:00.028Z","timestamp":"2025-12-06T16:37:00.028Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:37:00.066Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:38:00.021Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:38:00.021Z","timestamp":"2025-12-06T16:38:00.021Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:38:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:39:00.028Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:39:00.028Z","timestamp":"2025-12-06T16:39:00.029Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:39:00.067Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:40:00.021Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:40:00.021Z","timestamp":"2025-12-06T16:40:00.021Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:40:00.059Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:41:00.017Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:41:00.018Z","timestamp":"2025-12-06T16:41:00.018Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:41:00.056Z"}
+{"level":"info","message":"Running cleanup job.","timestamp":"2025-12-06T16:42:00.030Z"}
+{"level":"info","message":"Pruning channels inactive since: 2025-10-07T16:42:00.030Z","timestamp":"2025-12-06T16:42:00.030Z"}
+{"level":"info","message":"No inactive channels to prune.","timestamp":"2025-12-06T16:42:00.068Z"}

@@ -4,6 +4,9 @@ const { token, clientId, guildId } = require("./config/config");
 const registerCommands = require("./handlers/commandHandler");
 const registerEvents = require("./handlers/eventHandler");
 const connectDatabase = require("./database/db");
+const pruneInactiveChannels = require("./jobs/pruneInactiveChannels");
+const cron = require("node-cron");
+const logger = require("./config/logger");
 
 connectDatabase();
 
@@ -17,6 +20,12 @@ client.once("ready", () => {
 
 registerCommands(client);
 registerEvents(client);
+
+cron.schedule("0 0 * * *", () => {
+  console.log("RUNNING CLEANUP JOB.");
+  logger.info("RUNNING CLEANUP JOB.");
+  pruneInactiveChannels(client);
+});
 
 client.login(token);
 
